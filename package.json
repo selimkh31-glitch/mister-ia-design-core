@@ -1,12 +1,15 @@
 {
   "name": "mister-ia-design-core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Reusable design governance and anti-generic UI core for Mister IA projects",
+  "description": "Reusable design governance, skill orchestration and anti-generic UI core for Mister IA projects",
   "scripts": {
     "design:init": "node scripts/init-project.mjs",
     "design:lint": "node scripts/design-lint.mjs",
+    "design:skills": "node scripts/skill-plan.mjs",
+    "skills:start": "npx ui-skills start",
+    "skills:categories": "npx ui-skills categories",
     "check": "node scripts/design-lint.mjs ."
   }
 }
