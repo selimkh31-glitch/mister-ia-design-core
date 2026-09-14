@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "gates": {
+    "art_direction": {
+      "required": true,
+      "checks": [
+        "recognisable_without_logo",
+        "one_dominant_visual_idea",
+        "materially_different_from_previous_surface",
+        "not_visually_cloned_from_another_mister_ia_project"
+      ]
+    },
+    "typography": {
+      "required": true,
+      "checks": [
+        "clear_hierarchy",
+        "readable_body",
+        "intentional_type_pairing",
+        "no_more_than_three_typographic_voices"
+      ]
+    },
+    "responsive": {
+      "required": true,
+      "viewports": [360, 390, 768, 1024, 1440],
+      "checks": [
+        "no_horizontal_overflow",
+        "mobile_is_recomposed_not_only_stacked",
+        "touch_targets_are_usable",
+        "content_order_remains_clear"
+      ]
+    },
+    "accessibility": {
+      "required": true,
+      "checks": [
+        "keyboard_navigation",
+        "visible_focus",
+        "sufficient_contrast",
+        "meaningful_alt_text",
+        "reduced_motion_supported"
+      ]
+    },
+    "motion": {
+      "required_when_present": true,
+      "checks": [
+        "motion_has_purpose",
+        "motion_tokens_used",
+        "interruptions_are_handled",
+        "compositor_friendly_when_possible"
+      ]
+    },
+    "anti_generic": {
+      "required": true,
+      "checks": [
+        "no_default_saas_hero_without_brand_reason",
+        "no_repeated_card_grid_as_default_layout",
+        "no_decorative_ai_cliches",
+        "no_component_library_default_identity",
+        "project_has_at_least_one_signature_device"
+      ]
+    }
+  }
+}
