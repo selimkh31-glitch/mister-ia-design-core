@@ -1,0 +1,12 @@
+{
+  "name": "mister-ia-design-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable design governance and anti-generic UI core for Mister IA projects",
+  "scripts": {
+    "design:init": "node scripts/init-project.mjs",
+    "design:lint": "node scripts/design-lint.mjs",
+    "check": "node scripts/design-lint.mjs ."
+  }
+}

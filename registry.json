@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "mister-ia-design-core",
+  "homepage": "https://github.com/selimkh31-glitch/mister-ia-design-core",
+  "items": [
+    {
+      "name": "design-protocol",
+      "type": "registry:item",
+      "title": "Mister IA Design Protocol",
+      "description": "Agent rules for project-specific design systems and anti-generic UI governance.",
+      "files": [
+        {"path":"AGENTS.md","type":"registry:file"},
+        {"path":"agent/ANTI_GENERIC.md","type":"registry:file"},
+        {"path":"agent/DESIGN_PROTOCOL.md","type":"registry:file"},
+        {"path":"agent/DESIGN_QA.md","type":"registry:file"}
+      ]
+    },
+    {
+      "name": "project-design-starter",
+      "type": "registry:item",
+      "title": "Project Design Starter",
+      "description": "Brand, design bible, component, motion, reference, QA and token starter files for a new project.",
+      "files": [
+        {"path":"starter/project-design/BRAND.md","type":"registry:file"},
+        {"path":"starter/project-design/design.md","type":"registry:file"},
+        {"path":"starter/project-design/COMPONENTS.md","type":"registry:file"},
+        {"path":"starter/project-design/MOTION.md","type":"registry:file"},
+        {"path":"starter/project-design/REFERENCES.md","type":"registry:file"},
+        {"path":"starter/project-design/DESIGN-QA.md","type":"registry:file"},
+        {"path":"starter/project-design/tokens.css","type":"registry:file"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+:where(html) {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  text-rendering: optimizeLegibility;
+}
+
+:where(body) {
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+}
+
+:where(h1, h2, h3) {
+  font-family: var(--font-display);
+  text-wrap: balance;
+}
+
+:where(p, li) {
+  text-wrap: pretty;
+}

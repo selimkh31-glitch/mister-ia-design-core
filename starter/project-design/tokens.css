@@ -1,0 +1,26 @@
+:root {
+  /* Replace these starter values from the approved design direction. */
+  --color-canvas: oklch(0.985 0.003 95);
+  --color-surface: oklch(1 0 0);
+  --color-text: oklch(0.205 0.01 70);
+  --color-text-muted: oklch(0.48 0.012 70);
+  --color-border: oklch(0.89 0.008 80);
+  --color-brand-primary: oklch(0.45 0.12 160);
+  --color-brand-on-primary: oklch(0.99 0.002 95);
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-section-y: clamp(4rem, 9vw, 8rem);
+
+  --radius-control: 0.75rem;
+  --radius-card: 1.25rem;
+
+  --motion-fast: 120ms;
+  --motion-normal: 220ms;
+  --motion-slow: 420ms;
+  --ease-standard: cubic-bezier(.2,.8,.2,1);
+}

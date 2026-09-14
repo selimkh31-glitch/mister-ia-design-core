@@ -1,0 +1,12 @@
+.mia-enter {
+  animation: mia-enter var(--motion-normal) var(--ease-emphasized) both;
+}
+
+@keyframes mia-enter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mia-enter { animation: none; }
+}

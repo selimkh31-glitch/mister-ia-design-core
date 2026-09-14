@@ -1,0 +1,53 @@
+:root {
+  /* Neutral starter only. Replace brand values per project. */
+  --color-canvas: oklch(0.985 0.003 95);
+  --color-surface: oklch(1 0 0);
+  --color-surface-muted: oklch(0.965 0.004 95);
+  --color-text: oklch(0.205 0.01 70);
+  --color-text-muted: oklch(0.48 0.012 70);
+  --color-border: oklch(0.89 0.008 80);
+  --color-brand-primary: oklch(0.45 0.12 160);
+  --color-brand-on-primary: oklch(0.99 0.002 95);
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-section-y: clamp(4rem, 9vw, 8rem);
+  --content-sm: 40rem;
+  --content-md: 64rem;
+  --content-lg: 80rem;
+  --content-xl: 92rem;
+  --radius-control: 0.75rem;
+  --radius-card: 1.25rem;
+  --radius-pill: 999px;
+  --shadow-subtle: 0 1px 2px color-mix(in oklab, black 8%, transparent);
+  --shadow-raised: 0 16px 50px color-mix(in oklab, black 10%, transparent);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: var(--font-sans);
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: clamp(1.75rem, 3vw, 2.5rem);
+  --text-display: clamp(2.75rem, 7vw, 6rem);
+  --leading-tight: 0.98;
+  --leading-body: 1.6;
+  --motion-fast: 120ms;
+  --motion-normal: 220ms;
+  --motion-slow: 420ms;
+  --ease-standard: cubic-bezier(.2,.8,.2,1);
+  --ease-emphasized: cubic-bezier(.16,1,.3,1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 1ms;
+    --motion-normal: 1ms;
+    --motion-slow: 1ms;
+  }
+}
